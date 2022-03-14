@@ -7,6 +7,7 @@ How strong of a regressor is housing availability for both cost of living and in
 ## Data  
 American Community Survey:  
   Dataset of housing and economic statistics from 24 selected cities  
+  Atlanta, Austin, Boston, Charlotte, Chicago, Denver, Detroit, Houston, Indianapolis, Jacksonville, Kansas City, Las Vegas, Los Angeles, Memphis, Miami, Minneapolis, New York, Philadelphia, Phoenix, Salt Lake City, San Francisco, Seattle, St. Louis, Washington DC
   
 FRED:  
   Dataset of Median Real Wages Adjusted for Cost of Living by city and date  
