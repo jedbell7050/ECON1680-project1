@@ -32,3 +32,4 @@ From the final regression, of the four feature variables I was interested in stu
 
 
 ## Replication Instructions
+To replicate this analysis, use the data above from the ACS and FRED on housing an wages. This includes median real wages adjusted for cost of living, regional purchasing parity, percent of building permits for single unit housing, housing price index, vacancy rate, and total population for each metropolitan area fro each year. Then combine this into a single large dataframe by flattening the FRED data so each row is an observation from one city for one year, and then merging all of the dataframes together on metro area and year. Then perform a 2 stage least squares regression with the year re-scaled from 0-10, and both the vacancy rate and permit ratio expressed as a percent out of 100 (instead of 1). Also include, the vacancy rate and permit ratio of the previous year as instrumnetal variables, and drop HPI as a regressor.
